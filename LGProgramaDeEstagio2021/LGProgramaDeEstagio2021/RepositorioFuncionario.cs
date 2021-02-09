@@ -15,8 +15,8 @@ namespace LGProgramaDeEstagio2021
         }
         public void Insert(Funcionario funcionario)
         {
-            listaFuncionario.Add(funcionario);
+            if(!listaFuncionario.Contains(funcionario))
+                listaFuncionario.Add(funcionario);            
         }
-
     }
 }

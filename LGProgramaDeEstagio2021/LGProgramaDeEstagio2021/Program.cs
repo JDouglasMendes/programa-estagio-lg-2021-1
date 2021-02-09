@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {            
