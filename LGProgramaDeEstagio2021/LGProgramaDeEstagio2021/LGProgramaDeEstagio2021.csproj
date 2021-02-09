@@ -53,6 +53,7 @@
     <Compile Include="Relatorio.cs" />
     <Compile Include="RelatorioAdmissoes.cs" />
     <Compile Include="RelatorioFolhaPagamento.cs" />
+    <Compile Include="RepositorioFuncionario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
