@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    class FuncionarioCLT
+    public class FuncionarioCLT : Funcionario
     {
+        public FuncionarioCLT(string nome, int matricula, float salarioContratual, DateTime dataAdmissao) : 
+            base(nome, matricula, salarioContratual, dataAdmissao)
+        {
+        }
     }
 }

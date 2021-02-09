@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    public class FuncionarioProlabore : Funcionario
+    public class FuncionarioAutonomo : Funcionario
     {
-        public FuncionarioProlabore(string nome, int matricula, float salarioContratual, DateTime dataAdmissao) : 
+        public FuncionarioAutonomo(string nome, int matricula, float salarioContratual, DateTime dataAdmissao) : 
             base(nome, matricula, salarioContratual, dataAdmissao)
         {
         }

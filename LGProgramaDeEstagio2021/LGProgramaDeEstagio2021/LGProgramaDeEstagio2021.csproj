@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CNH.cs" />
     <Compile Include="Funcionario.cs" />
+    <Compile Include="FuncionarioAutonomo.cs" />
     <Compile Include="FuncionarioCLT.cs" />
     <Compile Include="FuncionarioProlabore.cs" />
     <Compile Include="Program.cs" />

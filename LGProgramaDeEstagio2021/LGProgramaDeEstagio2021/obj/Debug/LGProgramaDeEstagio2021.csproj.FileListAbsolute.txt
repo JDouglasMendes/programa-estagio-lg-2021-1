@@ -5,3 +5,10 @@ C:\Users\10gut\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio20
 C:\Users\10gut\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CoreCompileInputs.cache
 C:\Users\10gut\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
 C:\Users\10gut\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\carolina.freitas\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe.config
+C:\Users\carolina.freitas\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe
+C:\Users\carolina.freitas\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\carolina.freitas\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csprojAssemblyReference.cache
+C:\Users\carolina.freitas\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CoreCompileInputs.cache
+C:\Users\carolina.freitas\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
+C:\Users\carolina.freitas\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb
