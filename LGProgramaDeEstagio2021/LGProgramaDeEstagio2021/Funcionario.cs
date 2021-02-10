@@ -9,12 +9,16 @@ namespace LGProgramaDeEstagio2021
     public abstract class Funcionario : 
         IEquatable<Funcionario>
     {
+        [Obrigatorio("O Nome deve ser informado")]
         public string Nome { get; private set; }
+        
         public int Matricula { get; private set; }
+        [MaiorQue(0)]
         public float SalarioContratual { get; private set; }
+      
         public DateTime DataAdmissao { get; private set; }
         public CNH CNH { get; set; }
-
+       
         protected Funcionario(
             string nome, 
             int matricula,

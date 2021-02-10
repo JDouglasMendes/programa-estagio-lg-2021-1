@@ -26,3 +26,10 @@ C:\Users\T-Gamer\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio
 C:\Users\T-Gamer\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe.config
 C:\Users\T-Gamer\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe
 C:\Users\T-Gamer\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\yuri-\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csprojAssemblyReference.cache
+C:\Users\yuri-\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CoreCompileInputs.cache
+C:\Users\yuri-\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
+C:\Users\yuri-\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\yuri-\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe.config
+C:\Users\yuri-\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe
+C:\Users\yuri-\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.pdb

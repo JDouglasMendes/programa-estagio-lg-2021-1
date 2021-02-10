@@ -50,12 +50,14 @@
     <Compile Include="FuncionarioAutonomo.cs" />
     <Compile Include="FuncionarioCLT.cs" />
     <Compile Include="FuncionarioProlabore.cs" />
+    <Compile Include="Obrigatorio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Relatorio.cs" />
     <Compile Include="RelatorioAdmissoes.cs" />
     <Compile Include="RelatorioFolhaPagamento.cs" />
     <Compile Include="RepositorioFuncionario.cs" />
+    <Compile Include="ValidadorGenerico.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
