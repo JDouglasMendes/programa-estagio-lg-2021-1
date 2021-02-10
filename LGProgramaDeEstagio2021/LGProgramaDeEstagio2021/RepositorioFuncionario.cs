@@ -8,15 +8,22 @@ namespace LGProgramaDeEstagio2021
 {
     public class RepositorioFuncionario
     {
-        private List<Funcionario> listaFuncionario;
+        public List<Funcionario> listaFuncionario;        
+
         public RepositorioFuncionario()
         {
             listaFuncionario = new List<Funcionario>();
         }
         public void Insert(Funcionario funcionario)
-        {
-            if(!listaFuncionario.Contains(funcionario))
+        {                            
+            if (!listaFuncionario.Contains(funcionario))
                 listaFuncionario.Add(funcionario);            
         }
+        public void Delete(Funcionario funcionario)
+        {
+            listaFuncionario.Remove(funcionario);
+        }
+
+
     }
 }

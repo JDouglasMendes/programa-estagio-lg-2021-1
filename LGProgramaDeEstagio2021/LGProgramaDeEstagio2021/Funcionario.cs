@@ -31,12 +31,13 @@ namespace LGProgramaDeEstagio2021
 		{
 			if (!(obj is Funcionario funcionario))
 				return false;
-
+            
             return Equals(funcionario);
         }
 
         public bool Equals(Funcionario funcionario)
             => funcionario.Matricula == this.Matricula;
+
 
         public override int GetHashCode()
 			=> this.Matricula.GetHashCode();

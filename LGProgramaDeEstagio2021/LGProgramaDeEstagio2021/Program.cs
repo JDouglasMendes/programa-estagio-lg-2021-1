@@ -11,6 +11,8 @@ namespace LGProgramaDeEstagio2021
         static void Main(string[] args)
         {            
             var funcionario = new FuncionarioCLT("Teste", 1, 0, DateTime.Now);
+            funcionario.Equals(new FuncionarioCLT("Teste", 2, 0, DateTime.Now));
+            var ficha = new FichaCadastral();            
             Console.WriteLine(funcionario.Nome);
             Console.Read();
         }
