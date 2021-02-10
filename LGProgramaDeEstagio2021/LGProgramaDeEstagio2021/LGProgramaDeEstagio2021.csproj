@@ -50,6 +50,8 @@
     <Compile Include="FuncionarioAutonomo.cs" />
     <Compile Include="FuncionarioCLT.cs" />
     <Compile Include="FuncionarioProlabore.cs" />
+    <Compile Include="IValidacao.cs" />
+    <Compile Include="MaiorQue.cs" />
     <Compile Include="Obrigatorio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

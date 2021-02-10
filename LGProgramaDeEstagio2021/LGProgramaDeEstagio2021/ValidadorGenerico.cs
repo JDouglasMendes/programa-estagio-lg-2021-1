@@ -10,7 +10,7 @@ namespace LGProgramaDeEstagio2021
     public static class ValidadorGenerico
     {
         public static List<string> Valide(object obj)
-        {          
+        {
             var propriedades = obj.GetType()
                 .GetProperties()
                 .ToList()
