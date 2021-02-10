@@ -14,7 +14,7 @@ namespace LGProgramaDeEstagio2021
             var propriedades = obj.GetType()
                 .GetProperties()
                 .ToList()
-                .Where(propriedade => propriedade.GetCustomAttribute(null) != null).ToList();
+                .Where(propriedade => propriedade.GetCustomAttribute(typeof(Attribute)) != null).ToList();
             var mensagens = new List<string>();
             propriedades.ForEach(propriedade =>
             {
