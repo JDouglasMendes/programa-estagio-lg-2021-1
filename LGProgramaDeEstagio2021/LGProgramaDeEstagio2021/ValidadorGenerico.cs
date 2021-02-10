@@ -14,25 +14,22 @@ namespace LGProgramaDeEstagio2021
             var propriedades = obj.GetType()
                 .GetProperties()
                 .ToList()
-                .Where(propriedade => propriedade.GetCustomAttribute<Obrigatorio>() != null).ToList();
+                .Where(propriedade => propriedade.GetCustomAttribute(null) != null).ToList();
             var mensagens = new List<string>();
             propriedades.ForEach(propriedade =>
             {
                 var valor = propriedade.GetValue(obj);
-                if (valor == null)
+                var atributos = propriedade.GetCustomAttributes().ToList();
+                atributos.ForEach(atributo =>
                 {
-                    mensagens.Add(propriedade.GetCustomAttribute<Obrigatorio>().Mensagem);
-                }else
-                {
-                    if (valor.GetType() == typeof(string))
-                    {
-                        if(string.IsNullOrEmpty(valor.ToString()))
-                            mensagens.Add(propriedade.GetCustomAttribute<Obrigatorio>().Mensagem);
-                    }                    
-                }                                    
+                    var validacao = atributo as IValidacao;
+                    if (!validacao.Valide(valor))
+                        mensagens.Add(validacao.Mensagem);
+                 });
             });
 
             return mensagens;
         }
+
     }
 }

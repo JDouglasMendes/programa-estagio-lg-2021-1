@@ -13,7 +13,7 @@ namespace LGProgramaDeEstagio2021
         public string Nome { get; private set; }
         
         public int Matricula { get; private set; }
-        [MaiorQue(0)]
+        [MaiorQue(0 , "O salario deve ser maior que 0")]
         public float SalarioContratual { get; private set; }
       
         public DateTime DataAdmissao { get; private set; }

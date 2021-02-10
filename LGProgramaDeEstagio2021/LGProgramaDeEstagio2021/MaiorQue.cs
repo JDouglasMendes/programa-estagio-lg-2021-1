@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    public class Obrigatorio : Attribute, IValidacao
+    public class MaiorQue : Attribute, IValidacao
     {
-        public Obrigatorio(string mensagem)
-        {
-            Mensagem = mensagem;
-        }
-
+            public MaiorQue (int numero, string mensagem)
+            {
+                Mensagem = mensagem;
+                Numero = numero;
+            }
         public string Mensagem { get; }
+        public float Numero { get; }
 
         public bool Valide(object obj)
         {
@@ -21,11 +22,8 @@ namespace LGProgramaDeEstagio2021
                 return false;
             else
             {
-                if (obj.GetType() == typeof(string))
-                {
-                    if (string.IsNullOrEmpty(obj.ToString()))
-                        return false;                
-                }
+                if (Numero > float.Parse(obj.ToString()))
+                    return false;
             }
             return true;
         }
