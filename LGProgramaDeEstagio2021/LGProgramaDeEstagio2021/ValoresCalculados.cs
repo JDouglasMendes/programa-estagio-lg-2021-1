@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    public interface ICalcularSalario
+    class ValoresCalculados
     {
-        void CalculaSalario(Funcionario funcionario);       
     }
 }
