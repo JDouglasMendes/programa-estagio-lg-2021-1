@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalcularDiasUteis.cs" />
     <Compile Include="CalculaSalarioAutonomo.cs" />
     <Compile Include="CalculaSalarioCLT.cs" />
     <Compile Include="CalculaSalarioProLabore.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="FuncionarioCLT.cs" />
     <Compile Include="FuncionarioProlabore.cs" />
     <Compile Include="ICalcularSalario.cs" />
+    <Compile Include="IRepositorio.cs" />
     <Compile Include="IValidacao.cs" />
     <Compile Include="MaiorQue.cs" />
     <Compile Include="MenorQue.cs" />

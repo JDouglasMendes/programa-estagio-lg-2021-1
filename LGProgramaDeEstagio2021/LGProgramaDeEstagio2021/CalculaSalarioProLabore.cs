@@ -15,15 +15,8 @@ namespace LGProgramaDeEstagio2021
         }
         public float CalculaSalario(Funcionario funcionario)
         {
-            int diasMes = DateTime.DaysInMonth(MesCalculo.Year, MesCalculo.Month);
-            int diasUteis = 0;
-            while (MesCalculo.Day <= diasMes)
-            {
-                if (!(MesCalculo.DayOfWeek == DayOfWeek.Saturday || MesCalculo.DayOfWeek == DayOfWeek.Sunday))
-                    diasUteis += 1;
-     
-                MesCalculo = MesCalculo.AddDays(1); 
-            }
+            int diasUteis = CalcularDiasUteis.Calcula(MesCalculo.Month, MesCalculo.Year);
+            int diasMes = MesCalculo.Month;
 
             return (funcionario.SalarioContratual / diasMes) * diasUteis;
         }

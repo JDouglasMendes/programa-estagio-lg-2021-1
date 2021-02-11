@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    class CalculaSalarioCLT
+    class CalculaSalarioCLT : ICalcularSalario
     {
+        public float CalculaSalario(Funcionario funcionario)
+        {
+            return funcionario.SalarioContratual;
+            throw new NotImplementedException();
+        }
     }
 }

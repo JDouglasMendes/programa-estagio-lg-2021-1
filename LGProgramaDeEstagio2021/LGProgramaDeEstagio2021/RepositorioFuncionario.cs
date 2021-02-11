@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    public class RepositorioFuncionario
+    public class RepositorioFuncionario : IRepositorio<Funcionario>
     {
         public List<Funcionario> listaFuncionario;        
 
@@ -23,7 +23,6 @@ namespace LGProgramaDeEstagio2021
         {
             listaFuncionario.Remove(funcionario);
         }
-
 
     }
 }
