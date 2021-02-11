@@ -11,7 +11,7 @@ namespace LGProgramaDeEstagio2021
         static void Main(string[] args)
         {            
             var funcionario = new FuncionarioCLT("Teste", 1, 0, DateTime.Now);           
-            var mensagens = ValidadorGenerico.Valide(funcionario);
+            var mensagens = ValidadorGenerico.ValideGenerico(funcionario);
             Console.WriteLine(funcionario.Nome);
             Console.Read();
         }

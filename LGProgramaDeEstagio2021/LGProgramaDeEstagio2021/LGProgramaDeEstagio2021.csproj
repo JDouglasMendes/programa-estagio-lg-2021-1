@@ -52,6 +52,7 @@
     <Compile Include="FuncionarioProlabore.cs" />
     <Compile Include="IValidacao.cs" />
     <Compile Include="MaiorQue.cs" />
+    <Compile Include="MenorQue.cs" />
     <Compile Include="Obrigatorio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -9,12 +9,12 @@ namespace LGProgramaDeEstagio2021
 {
     public static class ValidadorGenerico
     {
-        public static List<string> Valide(object obj)
+        public static List<string> ValideGenerico(object obj)
         {
             var propriedades = obj.GetType()
                 .GetProperties()
                 .ToList()
-                .Where(propriedade => propriedade.GetCustomAttribute(typeof(Attribute)) != null).ToList();
+                .Where(propriedade => propriedade.GetCustomAttributes (typeof(Attribute)) != null).ToList();
             var mensagens = new List<string>();
             propriedades.ForEach(propriedade =>
             {

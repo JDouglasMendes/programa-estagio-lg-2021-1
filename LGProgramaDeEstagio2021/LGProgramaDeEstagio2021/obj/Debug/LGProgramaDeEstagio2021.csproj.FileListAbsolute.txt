@@ -40,3 +40,10 @@ D:\Projetos\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstag
 D:\Projetos\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe.config
 D:\Projetos\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe
 D:\Projetos\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.pdb
+C:\GIt\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe.config
+C:\GIt\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe
+C:\GIt\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.pdb
+C:\GIt\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csprojAssemblyReference.cache
+C:\GIt\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CoreCompileInputs.cache
+C:\GIt\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
+C:\GIt\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb

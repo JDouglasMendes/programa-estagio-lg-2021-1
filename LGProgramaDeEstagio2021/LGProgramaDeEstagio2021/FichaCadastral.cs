@@ -48,15 +48,7 @@ namespace LGProgramaDeEstagio2021
             EnumTipoFuncionario enumTipoFuncionario, 
             CNH cnh)
         {
-            if (ValidaNome(nome))
-                throw new ArgumentException();
-
-            if (ValidaSalarioContratual(salarioContratual))
-                throw new ArgumentException();
-
-            if (ValidaDataAdmissao(dataAdmissao))
-                throw new ArgumentException();
-
+           
             if (ValidaCNH(cnh))
                 throw new ArgumentException();
 
@@ -77,6 +69,11 @@ namespace LGProgramaDeEstagio2021
                     break;
 
             }
+           
+
+            var mensagens = ValidadorGenerico.ValideGenerico(funcionario);
+            if (!mensagens.Any())
+
             repositorioFuncionario.Insert(funcionario);
         }
 
