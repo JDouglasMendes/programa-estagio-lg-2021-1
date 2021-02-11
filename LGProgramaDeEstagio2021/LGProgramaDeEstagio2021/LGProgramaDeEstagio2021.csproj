@@ -65,9 +65,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Relatorio.cs" />
     <Compile Include="RelatorioAdmissoes.cs" />
-    <Compile Include="RelatorioFolhaPagamento.cs" />
+    <Compile Include="RepositorioFolhaPagamento.cs" />
     <Compile Include="RepositorioFuncionario.cs" />
     <Compile Include="ValidadorGenerico.cs" />
+    <Compile Include="ValoresCalculados.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

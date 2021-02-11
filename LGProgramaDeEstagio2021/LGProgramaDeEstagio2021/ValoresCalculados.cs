@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    class ValoresCalculados
+    public class ValoresCalculados
     {
+        public DateTime Mes { get; set; }
+        public int Matricula { get; set; }
+        public float Salario { get; set; }
+
     }
 }
