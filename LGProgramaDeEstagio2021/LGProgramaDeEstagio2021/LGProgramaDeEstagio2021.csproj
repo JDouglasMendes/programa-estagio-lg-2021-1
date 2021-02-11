@@ -43,13 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculaSalarioAutonomo.cs" />
+    <Compile Include="CalculaSalarioCLT.cs" />
+    <Compile Include="CalculaSalarioProLabore.cs" />
     <Compile Include="CNH.cs" />
     <Compile Include="EnumTipoFuncionario.cs" />
+    <Compile Include="FabricaFuncionarios.cs" />
     <Compile Include="FichaCadastral.cs" />
     <Compile Include="Funcionario.cs" />
     <Compile Include="FuncionarioAutonomo.cs" />
     <Compile Include="FuncionarioCLT.cs" />
     <Compile Include="FuncionarioProlabore.cs" />
+    <Compile Include="ICalcularSalario.cs" />
     <Compile Include="IValidacao.cs" />
     <Compile Include="MaiorQue.cs" />
     <Compile Include="MenorQue.cs" />

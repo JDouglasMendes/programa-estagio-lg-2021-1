@@ -48,33 +48,17 @@ namespace LGProgramaDeEstagio2021
             EnumTipoFuncionario enumTipoFuncionario, 
             CNH cnh)
         {
-           
             if (ValidaCNH(cnh))
                 throw new ArgumentException();
 
-            Funcionario funcionario = null;
-
-            switch (enumTipoFuncionario)
-            {
-                case EnumTipoFuncionario.AUTONOMO:
-                    funcionario = new FuncionarioAutonomo(nome, 0, salarioContratual, dataAdmissao);
-                    break;
-
-                case EnumTipoFuncionario.CLT:
-                    funcionario = new FuncionarioCLT(nome, 0, salarioContratual, dataAdmissao);
-                    break;
-
-                case EnumTipoFuncionario.PROLABORE:
-                    funcionario = new FuncionarioProlabore(nome, 0, salarioContratual, dataAdmissao);
-                    break;
-
-            }
-           
-
+            Funcionario funcionario = FabricaFuncionarios.Crie(nome, 
+                salarioContratual, 
+                dataAdmissao, 
+                enumTipoFuncionario, 
+                cnh);
             var mensagens = ValidadorGenerico.ValideGenerico(funcionario);
             if (!mensagens.Any())
-
-            repositorioFuncionario.Insert(funcionario);
+                repositorioFuncionario.Insert(funcionario);
         }
 
         private bool ValidaCNH(CNH cnh)

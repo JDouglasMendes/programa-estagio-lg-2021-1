@@ -50,8 +50,6 @@ namespace LGProgramaDeEstagio2021
 		public override string ToString()
 		{
 			return base.ToString();
-		}
-
-
+		}       
 	}
 }

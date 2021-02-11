@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    class RelatorioFolhaPagamento
+    class CalculaSalarioCLT
     {
-
     }
 }
