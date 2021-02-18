@@ -10,5 +10,6 @@ namespace LGProgramaDeEstagio2021
     {
          void Insert(T obj);
          void Delete(T obj);
+        List<T> Select(Func<T, bool> filtro);
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LGProgramaDeEstagio2021.Repositorios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    public class RepositorioValoresCalculados : IRepositorio<ValoresCalculados>
+    public class RepositorioValoresCalculados : RepositorioGenerico, IRepositorio<ValoresCalculados>
     {
         private List<ValoresCalculados> listaValoresCalculados;
 
@@ -27,5 +28,10 @@ namespace LGProgramaDeEstagio2021
         }
         public List<ValoresCalculados> ConsultarTodos()
          => listaValoresCalculados;
+
+        public List<ValoresCalculados> Select(Func<ValoresCalculados, bool> filtro)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

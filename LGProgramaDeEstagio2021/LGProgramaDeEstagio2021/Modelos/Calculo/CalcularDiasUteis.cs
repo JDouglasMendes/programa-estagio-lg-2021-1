@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021
 {
-    class CalcularDiasUteis
+    public class CalcularDiasUteis
     {
 
         public static int Calcula(int mes, int ano)

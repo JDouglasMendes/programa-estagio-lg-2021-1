@@ -43,12 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculadoraSalarioFuncionario.cs" />
+    <Compile Include="Modelos\Calculo\CalculadoraSalarioFuncionario.cs" />
     <Compile Include="GerarFuncionario.cs" />
+    <Compile Include="Modelos\AfastamentoFuncionario.cs" />
     <Compile Include="Modelos\Calculo\CalcularDiasUteis.cs" />
     <Compile Include="Modelos\Calculo\CalculaSalarioAutonomo.cs" />
     <Compile Include="Modelos\Calculo\CalculaSalarioCLT.cs" />
     <Compile Include="Modelos\Calculo\CalculaSalarioProLabore.cs" />
+    <Compile Include="Modelos\Calculo\RegistroAfastamento.cs" />
     <Compile Include="Modelos\CNH.cs" />
     <Compile Include="Modelos\EnumTipoFuncionario.cs" />
     <Compile Include="Modelos\FabricaFuncionarios.cs" />
@@ -67,6 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Modelos\Relatorio\Relatorio.cs" />
     <Compile Include="Modelos\Relatorio\RelatorioAdmissoes.cs" />
+    <Compile Include="Repositorios\RepositorioAfastamentoFuncionario.cs" />
     <Compile Include="Repositorios\RepositorioValoresCalculados.cs" />
     <Compile Include="Repositorios\RepositorioFuncionario.cs" />
     <Compile Include="Modelos\Relatorio\ValidadorGenerico.cs" />

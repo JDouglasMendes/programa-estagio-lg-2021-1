@@ -37,10 +37,6 @@ namespace LGProgramaDeEstagio2021
             repositorioValoresCalculados.ConsultarTodos().ForEach(valorCalculado =>
             Console.WriteLine(valorCalculado.Matricula + " : " + valorCalculado.Salario));
 
-
-
-
-
             Console.Read();
         }
     }
