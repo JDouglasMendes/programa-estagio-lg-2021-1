@@ -70,6 +70,7 @@
     <Compile Include="Modelos\Relatorio\Relatorio.cs" />
     <Compile Include="Modelos\Relatorio\RelatorioAdmissoes.cs" />
     <Compile Include="Repositorios\RepositorioAfastamentoFuncionario.cs" />
+    <Compile Include="Repositorios\RepositorioGenerico.cs" />
     <Compile Include="Repositorios\RepositorioValoresCalculados.cs" />
     <Compile Include="Repositorios\RepositorioFuncionario.cs" />
     <Compile Include="Modelos\Relatorio\ValidadorGenerico.cs" />

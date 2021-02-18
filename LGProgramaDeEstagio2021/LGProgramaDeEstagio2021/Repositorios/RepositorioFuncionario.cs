@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace LGProgramaDeEstagio2021
 {
@@ -33,5 +34,10 @@ namespace LGProgramaDeEstagio2021
           => listaFuncionario[indice];
         public List<Funcionario> ConsultarTodos()
          => listaFuncionario;
+
+        public List<Funcionario> Select(Func<Funcionario, bool> filtro)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
