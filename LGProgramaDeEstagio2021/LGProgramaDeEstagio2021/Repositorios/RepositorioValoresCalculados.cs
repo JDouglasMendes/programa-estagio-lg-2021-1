@@ -25,5 +25,7 @@ namespace LGProgramaDeEstagio2021
             if (!listaValoresCalculados.Contains(obj))
                 listaValoresCalculados.Add(obj);
         }
+        public List<ValoresCalculados> ConsultarTodos()
+         => listaValoresCalculados;
     }
 }

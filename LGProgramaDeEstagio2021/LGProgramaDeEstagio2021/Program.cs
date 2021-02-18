@@ -23,21 +23,24 @@ namespace LGProgramaDeEstagio2021
                 Calcular mes 02/2021.
             */
 
-            var funcionario = new FuncionarioAutonomo("Teste",
-                1,
-                10000,
-                DateTime.Now);
-            //  var mensagens = ValidadorGenerico.ValideGenerico(funcionario);
-            var repositorio = new RepositorioValoresCalculados();
+            var repositorioFuncionario = new RepositorioFuncionario();
+            GeradorFuncionario.GerarFuncionario(repositorioFuncionario, 30);
 
-            var calculo = new CalculaSalarioAutonomo(
-                repositorio,
-                2,
-                2021);
+            var repositorioValoresCalculados = new RepositorioValoresCalculados();
 
-            calculo.CalculaSalario(funcionario);
+            repositorioFuncionario.ConsultarTodos().ForEach(funcionario =>
+            CalculadoraSalarioFuncionario.CalculaSalario(funcionario,
+            repositorioValoresCalculados,
+            2021,
+            2));
 
-            Console.WriteLine(funcionario.Nome);
+            repositorioValoresCalculados.ConsultarTodos().ForEach(valorCalculado =>
+            Console.WriteLine(valorCalculado.Matricula + " : " + valorCalculado.Salario));
+
+
+
+
+
             Console.Read();
         }
     }

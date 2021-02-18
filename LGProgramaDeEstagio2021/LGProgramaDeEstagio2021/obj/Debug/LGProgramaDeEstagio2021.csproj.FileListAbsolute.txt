@@ -54,3 +54,10 @@ C:\Users\Arthur_2\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagi
 C:\Users\Arthur_2\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CoreCompileInputs.cache
 C:\Users\Arthur_2\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
 C:\Users\Arthur_2\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe.config
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csprojAssemblyReference.cache
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CoreCompileInputs.cache
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb

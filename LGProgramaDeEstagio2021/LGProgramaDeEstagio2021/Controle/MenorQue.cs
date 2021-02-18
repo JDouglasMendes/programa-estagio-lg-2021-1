@@ -8,14 +8,14 @@ namespace LGProgramaDeEstagio2021
 {
     public class MenorQue : Attribute, IValidacao
     {
-        public MenorQue(int numero, string mensagem)
+        public MenorQue(float numero, string mensagem)
         {
             Mensagem = mensagem;
             Numero = numero;
         }
 
         public string Mensagem { get; }
-        public int Numero { get; }
+        public float Numero { get; }
 
         public bool Valide(object obj)
         {
@@ -23,7 +23,7 @@ namespace LGProgramaDeEstagio2021
                 return false;
             else
             {
-                if (Numero < int.Parse(obj.ToString()))
+                if (Numero < float.Parse(obj.ToString()))
                     return false;
             }
             return true;

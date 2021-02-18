@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculadoraSalarioFuncionario.cs" />
+    <Compile Include="GerarFuncionario.cs" />
     <Compile Include="Modelos\Calculo\CalcularDiasUteis.cs" />
     <Compile Include="Modelos\Calculo\CalculaSalarioAutonomo.cs" />
     <Compile Include="Modelos\Calculo\CalculaSalarioCLT.cs" />

@@ -11,10 +11,10 @@ namespace LGProgramaDeEstagio2021
     {
         [Obrigatorio("O Nome deve ser informado")]
         public string Nome { get; private set; }
-
-        public int Matricula { get; private set; }
+        
+        public int Matricula { get;  set; }
         [MaiorQue(0 , "O salario deve ser maior que 0")]
-        [MenorQue(1000000, "O salario deve ser menor que 1.000.000")]
+        //[MenorQue(1000000, "O salario deve ser menor que 1.000.000")]
         public float SalarioContratual { get; private set; }
 
         public DateTime DataAdmissao { get; private set; }
