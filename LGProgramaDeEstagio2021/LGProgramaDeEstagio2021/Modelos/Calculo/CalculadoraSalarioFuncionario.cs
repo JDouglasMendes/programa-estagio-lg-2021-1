@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LGProgramaDeEstagio2021.Modelos.Calculo;
+using LGProgramaDeEstagio2021.Repositorios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +12,13 @@ namespace LGProgramaDeEstagio2021
     {
         public static void CalculaSalario(Funcionario funcionario,
             RepositorioValoresCalculados repositorioValoresCalculados,
+            RepositorioAfastamentoFuncionario  repositorioAfastamentoFuncionario,
             int ano ,
             int mes)
         {
             if (funcionario is FuncionarioCLT)
             {
-                var calculaSalarioCLT = new CalculaSalarioCLT(repositorioValoresCalculados, mes, ano);
+                var calculaSalarioCLT = new CalculaSalarioCLT(repositorioValoresCalculados, repositorioAfastamentoFuncionario, mes, ano);
                 calculaSalarioCLT.CalculaSalario(funcionario);
             }
             else if (funcionario is FuncionarioAutonomo)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LGProgramaDeEstagio2021.Repositorios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace LGProgramaDeEstagio2021
     public static class  GeradorFuncionario
     {
 
-        public static void GerarFuncionario(RepositorioFuncionario repositorioFuncionario, int quantidadeFuncionario)
+        public static void GerarFuncionario(RepositorioGenerico<Funcionario> repositorioFuncionario, int quantidadeFuncionario)
         {   FichaCadastral fichaCadastral = new FichaCadastral(repositorioFuncionario);
 
             int index = 0;

@@ -61,3 +61,10 @@ C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEsta
 C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CoreCompileInputs.cache
 C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
 C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\Arthur_2\Desktop\Estudos LG\programa-estagio-lg-2021-1 - Repositorio Generico\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csprojAssemblyReference.cache
+C:\Users\Arthur_2\Desktop\Estudos LG\programa-estagio-lg-2021-1 - Repositorio Generico\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CoreCompileInputs.cache
+C:\Users\Arthur_2\Desktop\Estudos LG\programa-estagio-lg-2021-1 - Repositorio Generico\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
+C:\Users\Arthur_2\Desktop\Estudos LG\programa-estagio-lg-2021-1 - Repositorio Generico\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\Arthur_2\Desktop\Estudos LG\programa-estagio-lg-2021-1 - Repositorio Generico\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe.config
+C:\Users\Arthur_2\Desktop\Estudos LG\programa-estagio-lg-2021-1 - Repositorio Generico\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.exe
+C:\Users\Arthur_2\Desktop\Estudos LG\programa-estagio-lg-2021-1 - Repositorio Generico\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LGProgramaDeEstagio2021.pdb

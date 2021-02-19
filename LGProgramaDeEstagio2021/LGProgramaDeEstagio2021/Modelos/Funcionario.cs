@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LGProgramaDeEstagio2021.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,12 +8,11 @@ using System.Threading.Tasks;
 namespace LGProgramaDeEstagio2021
 {
     public abstract class Funcionario :
-        IEquatable<Funcionario>
+        Entidade
     {
         [Obrigatorio("O Nome deve ser informado")]
         public string Nome { get; private set; }
         
-        public int Matricula { get;  set; }
         [MaiorQue(0 , "O salario deve ser maior que 0")]
         //[MenorQue(1000000, "O salario deve ser menor que 1.000.000")]
         public float SalarioContratual { get; private set; }
@@ -26,8 +26,8 @@ namespace LGProgramaDeEstagio2021
             float salarioContratual,
             DateTime dataAdmissao)
         {
+            Codigo = matricula;
             Nome = nome;
-            Matricula = matricula;
             SalarioContratual = salarioContratual;
             DataAdmissao = dataAdmissao;
         }
@@ -39,13 +39,6 @@ namespace LGProgramaDeEstagio2021
 
             return Equals(funcionario);
         }
-
-        public bool Equals(Funcionario funcionario)
-            => funcionario.Matricula == this.Matricula;
-
-
-        public override int GetHashCode()
-			=> this.Matricula.GetHashCode();
 
 		public override string ToString()
 		{

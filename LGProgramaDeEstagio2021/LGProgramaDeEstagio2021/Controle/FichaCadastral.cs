@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LGProgramaDeEstagio2021.Repositorios;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,9 @@ namespace LGProgramaDeEstagio2021
 {
     public class FichaCadastral
     {
-        private RepositorioFuncionario repositorioFuncionario;
+        private RepositorioGenerico<Funcionario> repositorioFuncionario;
 
-        public FichaCadastral(RepositorioFuncionario repositorioFuncionario)
+        public FichaCadastral(RepositorioGenerico<Funcionario> repositorioFuncionario)
         {
             this.repositorioFuncionario = repositorioFuncionario;
         }
@@ -50,7 +51,7 @@ namespace LGProgramaDeEstagio2021
         {
             if (ValidaCNH(cnh))
                 throw new ArgumentException();
-
+            int matricula = repositorioFuncionario.ConsultarTodos().Count() + 1;
             Funcionario funcionario = FabricaFuncionarios.Crie(nome,
                 salarioContratual,
                 dataAdmissao,

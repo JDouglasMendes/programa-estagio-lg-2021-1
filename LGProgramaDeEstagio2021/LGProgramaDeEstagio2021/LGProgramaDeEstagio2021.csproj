@@ -52,6 +52,7 @@
     <Compile Include="Modelos\Calculo\CalculaSalarioProLabore.cs" />
     <Compile Include="Modelos\Calculo\RegistroAfastamento.cs" />
     <Compile Include="Modelos\CNH.cs" />
+    <Compile Include="Modelos\Entidade.cs" />
     <Compile Include="Modelos\EnumTipoFuncionario.cs" />
     <Compile Include="Modelos\FabricaFuncionarios.cs" />
     <Compile Include="Controle\FichaCadastral.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Repositorios\RepositorioFuncionario.cs" />
     <Compile Include="Modelos\Relatorio\ValidadorGenerico.cs" />
     <Compile Include="Modelos\ValoresCalculados.cs" />
+    <Compile Include="Repositorios\RespositorioTeste.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

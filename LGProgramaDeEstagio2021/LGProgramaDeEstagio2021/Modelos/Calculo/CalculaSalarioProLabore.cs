@@ -22,7 +22,7 @@ namespace LGProgramaDeEstagio2021
             int diasMes = DateTime.DaysInMonth(MesCalculo.Year, MesCalculo.Month);
             repositorio.Insert(new ValoresCalculados
             {
-                Matricula = funcionario.Matricula,
+                Matricula = funcionario.Codigo,
                 Mes = MesCalculo,
                 Salario = (funcionario.SalarioContratual / diasMes) * diasUteis,
             });

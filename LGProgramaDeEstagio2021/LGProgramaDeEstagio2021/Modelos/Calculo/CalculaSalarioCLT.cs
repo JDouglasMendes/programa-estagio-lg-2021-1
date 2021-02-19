@@ -29,7 +29,7 @@ namespace LGProgramaDeEstagio2021
             {
                 return x.DataInicio.Year == MesCalculo.Year &&
                 x.DataInicio.Month == MesCalculo.Month && 
-                x.Matricula == funcionario.Matricula;
+                x.Matricula == funcionario.Codigo;
             }).Sum(x => (x.DataFim - x.DataInicio).Days);
 
             // condição ? parte verdadeira : parte falsa.
@@ -40,7 +40,7 @@ namespace LGProgramaDeEstagio2021
                 funcionario.SalarioContratual : 
                 ((funcionario.SalarioContratual / DateTime.DaysInMonth(MesCalculo.Year, MesCalculo.Month)) * 
                 (afastamentosNoMes - DateTime.DaysInMonth(MesCalculo.Year, MesCalculo.Month))),
-                Matricula = funcionario.Matricula,
+                Matricula = funcionario.Codigo,
                 Mes = MesCalculo
             });
         }

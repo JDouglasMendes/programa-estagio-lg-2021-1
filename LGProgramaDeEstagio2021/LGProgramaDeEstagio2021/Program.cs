@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LGProgramaDeEstagio2021.Modelos.Calculo;
+using LGProgramaDeEstagio2021.Repositorios;
+using System;
 
 namespace LGProgramaDeEstagio2021
 {
@@ -23,14 +25,16 @@ namespace LGProgramaDeEstagio2021
                 Calcular mes 02/2021.
             */
 
-            var repositorioFuncionario = new RepositorioFuncionario();
-            GeradorFuncionario.GerarFuncionario(repositorioFuncionario, 30);
-
+            var repositorioFuncionario = new RepositorioFuncionario(); 
             var repositorioValoresCalculados = new RepositorioValoresCalculados();
+            var repositorioAfastamentoFuncionario = new RepositorioAfastamentoFuncionario();
+            
+            GeradorFuncionario.GerarFuncionario(repositorioFuncionario, 30);
 
             repositorioFuncionario.ConsultarTodos().ForEach(funcionario =>
             CalculadoraSalarioFuncionario.CalculaSalario(funcionario,
             repositorioValoresCalculados,
+            repositorioAfastamentoFuncionario,
             2021,
             2));
 
