@@ -1,4 +1,5 @@
-﻿using LGProgramaDeEstagio2021.Modelos.Calculo;
+﻿using LGProgramaDeEstagio2021.Controle;
+using LGProgramaDeEstagio2021.Modelos.Calculo;
 using LGProgramaDeEstagio2021.Repositorios;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,8 @@ namespace LGProgramaDeEstagio2021
         public static void CalculaSalario(Funcionario funcionario,
             RepositorioValoresCalculados repositorioValoresCalculados,
             RepositorioAfastamentoFuncionario  repositorioAfastamentoFuncionario,
+            RepositorioDiasTrabalhados respositorioDiasTrabalhados,
+
             int ano ,
             int mes)
         {
@@ -30,6 +33,11 @@ namespace LGProgramaDeEstagio2021
             {
                 var calculaSalarioProlabore = new CalculaSalarioProLabore(repositorioValoresCalculados, mes, ano);
                 calculaSalarioProlabore.CalculaSalario(funcionario);
+            }
+            else if (funcionario is FuncionarioIntermitente)
+            {
+                var calculaSalarioIntermitente = new CalculaSalarioIntermitente(repositorioValoresCalculados, respositorioDiasTrabalhados, mes, ano);
+                calculaSalarioIntermitente.CalculaSalario(funcionario);
             }
         }
 

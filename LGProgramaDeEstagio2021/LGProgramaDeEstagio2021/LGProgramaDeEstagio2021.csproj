@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelos\Calculo\CalculaSalarioIntermitente.cs" />
+    <Compile Include="Modelos\Calculo\RegistroDiasTrabalhados.cs" />
+    <Compile Include="Modelos\DiasTrabalhadosIntermitente.cs" />
+    <Compile Include="Modelos\FuncionarioIntermitente.cs" />
     <Compile Include="Modelos\Calculo\CalculadoraSalarioFuncionario.cs" />
     <Compile Include="GerarFuncionario.cs" />
     <Compile Include="Modelos\AfastamentoFuncionario.cs" />
@@ -76,7 +80,7 @@
     <Compile Include="Repositorios\RepositorioFuncionario.cs" />
     <Compile Include="Modelos\Relatorio\ValidadorGenerico.cs" />
     <Compile Include="Modelos\ValoresCalculados.cs" />
-    <Compile Include="Repositorios\RespositorioTeste.cs" />
+    <Compile Include="Repositorios\RepositorioDiasTrabalhados.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

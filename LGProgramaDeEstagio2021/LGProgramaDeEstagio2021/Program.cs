@@ -8,6 +8,11 @@ namespace LGProgramaDeEstagio2021
     {
         private static void Main(string[] args)
         {
+            // Boxing             = tipo primitivo >>>>> tipo por referência. (object)
+            // Unboxing           = tipo por referência. (object) >>>>>> tipo primitivo
+            // Variancia          = Funcionario CLT >>>>> Funcionario >>>>> Entidade >>>>> Object
+            // Contra variancia   = Object >>>> Entidade .........
+
             /*
                 1ª Funcionario CLT
                 2ª Autonomo
@@ -28,13 +33,20 @@ namespace LGProgramaDeEstagio2021
             var repositorioFuncionario = new RepositorioFuncionario(); 
             var repositorioValoresCalculados = new RepositorioValoresCalculados();
             var repositorioAfastamentoFuncionario = new RepositorioAfastamentoFuncionario();
+            var repositorioDiasTrabalhados = new RepositorioDiasTrabalhados();
+            var registroDiasTrabalhados = new RegistroDiasTrabalhados(repositorioDiasTrabalhados);
+
             
-            GeradorFuncionario.GerarFuncionario(repositorioFuncionario, 30);
+            GeradorFuncionario.GerarFuncionario(repositorioFuncionario, 40);
+            registroDiasTrabalhados.AdicionarRegistro(31, new DateTime(2021, 2, 5), new DateTime(2021, 2, 10));
+            registroDiasTrabalhados.AdicionarRegistro(32, new DateTime(2021, 2, 5), new DateTime(2021, 2, 10));
+            registroDiasTrabalhados.AdicionarRegistro(33, new DateTime(2021, 2, 5), new DateTime(2021, 2, 12));
 
             repositorioFuncionario.ConsultarTodos().ForEach(funcionario =>
             CalculadoraSalarioFuncionario.CalculaSalario(funcionario,
             repositorioValoresCalculados,
             repositorioAfastamentoFuncionario,
+            repositorioDiasTrabalhados,
             2021,
             2));
 

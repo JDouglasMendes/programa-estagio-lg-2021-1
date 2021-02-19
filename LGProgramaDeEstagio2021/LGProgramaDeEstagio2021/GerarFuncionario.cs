@@ -39,8 +39,10 @@ namespace LGProgramaDeEstagio2021
                 return EnumTipoFuncionario.CLT;
             if (matricula < 20)
                 return EnumTipoFuncionario.AUTONOMO;
-            else
+            if (matricula < 30)
                 return EnumTipoFuncionario.PROLABORE;
+            else
+                return EnumTipoFuncionario.INTERMITENTE;
 
         }
 

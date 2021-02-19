@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LGProgramaDeEstagio2021.Repositorios
 {
-    public class RespositorioTeste : RepositorioGenerico<Entidade>
+    public class RepositorioDiasTrabalhados : RepositorioGenerico<DiasTrabalhadosIntermitente>
     {
     }
 }

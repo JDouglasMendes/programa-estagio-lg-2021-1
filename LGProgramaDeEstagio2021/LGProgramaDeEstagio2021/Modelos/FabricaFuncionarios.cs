@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LGProgramaDeEstagio2021.Controle;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,11 @@ namespace LGProgramaDeEstagio2021
                 case EnumTipoFuncionario.PROLABORE:
                     funcionario = new FuncionarioProlabore(nome, 0, salarioContratual, dataAdmissao);
                     break;
+
+                case EnumTipoFuncionario.INTERMITENTE:
+                    funcionario = new FuncionarioIntermitente(nome, 0, salarioContratual, dataAdmissao);
+                    break;
+
                 default:
                     throw new ArgumentException("Tipo nao mapeado na fabrica");
             }

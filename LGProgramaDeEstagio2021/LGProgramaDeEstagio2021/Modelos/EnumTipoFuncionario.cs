@@ -10,6 +10,7 @@ namespace LGProgramaDeEstagio2021
     {
         CLT,
         AUTONOMO,
-        PROLABORE
+        PROLABORE,
+        INTERMITENTE
     }
 }
