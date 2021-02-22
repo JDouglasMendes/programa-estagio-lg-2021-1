@@ -1,5 +1,6 @@
 ﻿using LG.ExemploDLL;
 using LGProgramaDeEstagio2021.Modelos.Calculo;
+using LGProgramaDeEstagio2021.Modelos.Relatorio;
 using LGProgramaDeEstagio2021.Repositorios;
 using System;
 
@@ -31,20 +32,22 @@ namespace LGProgramaDeEstagio2021
                 Calcular mes 02/2021.
             */
 
-            var repositorioFuncionario = new RepositorioFuncionario(); 
+            var repositorioFuncionario = new RepositorioFuncionario();
             var repositorioValoresCalculados = new RepositorioValoresCalculados();
             var repositorioAfastamentoFuncionario = new RepositorioAfastamentoFuncionario();
             var repositorioDiasTrabalhados = new RepositorioDiasTrabalhados();
             var registroDiasTrabalhados = new RegistroDiasTrabalhados(repositorioDiasTrabalhados);
-          
+
             GeradorFuncionario.GerarFuncionario(repositorioFuncionario, 40);
-            var relatorioFuncionario = new Relatorio(repositorioFuncionario);
-            relatorioFuncionario.GerarRelatorio();
+            //var relatorioFuncionarioAsc = new RelatorioCrescenteNome(repositorioFuncionario);
+            //relatorioFuncionarioAsc.GerarRelatorio();
+            var relatorioFuncionarioDesc = new RelatorioDecrescenteNome(repositorioFuncionario);
+            relatorioFuncionarioDesc.GerarRelatorio();
             /*
             registroDiasTrabalhados.AdicionarRegistro(31, new DateTime(2021, 2, 5), new DateTime(2021, 2, 10));
             registroDiasTrabalhados.AdicionarRegistro(32, new DateTime(2021, 2, 5), new DateTime(2021, 2, 10));
             registroDiasTrabalhados.AdicionarRegistro(33, new DateTime(2021, 2, 5), new DateTime(2021, 2, 12));
-           
+
             repositorioFuncionario.ConsultarTodos().ForEach(funcionario =>
             CalculadoraSalarioFuncionario.CalculaSalario(funcionario,
             repositorioValoresCalculados,
@@ -52,7 +55,7 @@ namespace LGProgramaDeEstagio2021
             repositorioDiasTrabalhados,
             2021,
             2));
-            
+
             repositorioValoresCalculados.ConsultarTodos().ForEach(valorCalculado =>
             Console.WriteLine(valorCalculado.Matricula + " : " + valorCalculado.Salario));
             */

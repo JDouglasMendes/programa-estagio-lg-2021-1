@@ -9,8 +9,5 @@ namespace LGProgramaDeEstagio2021.Modelos.Relatorio
     public interface IRelatorio
     {
         void GerarRelatorio();
-
-        
-
     }
 }
