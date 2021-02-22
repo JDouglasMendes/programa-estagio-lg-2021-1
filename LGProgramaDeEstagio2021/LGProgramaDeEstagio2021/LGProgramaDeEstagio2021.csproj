@@ -65,6 +65,7 @@
     <Compile Include="Modelos\FuncionarioCLT.cs" />
     <Compile Include="Modelos\FuncionarioProlabore.cs" />
     <Compile Include="Modelos\Calculo\ICalcularSalario.cs" />
+    <Compile Include="Modelos\Relatorio\IRelatorio.cs" />
     <Compile Include="Repositorios\IRepositorio.cs" />
     <Compile Include="Controle\IValidacao.cs" />
     <Compile Include="Controle\MaiorQue.cs" />
@@ -84,6 +85,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LG.ExemploDLL\LG.ExemploDLL.csproj">
+      <Project>{fd0be60c-34bd-4350-9cfc-a79e8b49027e}</Project>
+      <Name>LG.ExemploDLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

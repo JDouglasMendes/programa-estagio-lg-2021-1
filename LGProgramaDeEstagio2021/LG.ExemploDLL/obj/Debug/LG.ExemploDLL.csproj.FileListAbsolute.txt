@@ -1,0 +1,6 @@
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LG.ExemploDLL\bin\Debug\LG.ExemploDLL.dll
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LG.ExemploDLL\bin\Debug\LG.ExemploDLL.pdb
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LG.ExemploDLL\obj\Debug\LG.ExemploDLL.csprojAssemblyReference.cache
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LG.ExemploDLL\obj\Debug\LG.ExemploDLL.csproj.CoreCompileInputs.cache
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LG.ExemploDLL\obj\Debug\LG.ExemploDLL.dll
+C:\Users\diego.guse\Documents\GitHub\programa-estagio-lg-2021-1\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LG.ExemploDLL\obj\Debug\LG.ExemploDLL.pdb

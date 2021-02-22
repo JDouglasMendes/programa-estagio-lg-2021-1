@@ -24,12 +24,13 @@ namespace LGProgramaDeEstagio2021
                     salario = 3;
                 else
                     salario *= 2;
-
-                fichaCadastral.CadastraFuncionario("teste", salario, DateTime.Now, TipoFuncionario(index));
-
+                System.Threading.Thread.Sleep(50);
+                fichaCadastral.CadastraFuncionario("Funcionário - " + new Random().Next(0, Int32.MaxValue),
+                    salario,
+                    DateTime.Now, 
+                    TipoFuncionario(index));
 
                 index++;
-
             }
             
         }

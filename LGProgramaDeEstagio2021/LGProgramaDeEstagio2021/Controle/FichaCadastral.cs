@@ -23,7 +23,15 @@ namespace LGProgramaDeEstagio2021
         {
             SalveFuncionario(nome, salarioContratual, dataAdmissao, enumTipoFuncionario, null);
         }
+        public void CadastraFuncionario(string nome,
+                    float salarioContratual,
+                    DateTime dataAdmissao,
+                    EnumTipoFuncionario enumTipoFuncionario,
+                    CNH cnh)
+        {
+            SalveFuncionario(nome, salarioContratual, dataAdmissao, enumTipoFuncionario, cnh);
 
+        }
         private bool ValidaDataAdmissao(DateTime dataAdmissao)
             => dataAdmissao > DateTime.Now;
 
@@ -33,15 +41,7 @@ namespace LGProgramaDeEstagio2021
         private bool ValidaNome(string nome)
             => string.IsNullOrEmpty(nome);
 
-        public void CadastraFuncionario(string nome,
-            float salarioContratual,
-            DateTime dataAdmissao,
-            EnumTipoFuncionario enumTipoFuncionario,
-            CNH cnh)
-        {
-            SalveFuncionario(nome, salarioContratual, dataAdmissao, enumTipoFuncionario, cnh);
 
-        }
 
         private void SalveFuncionario(string nome,
             float salarioContratual,
@@ -51,7 +51,7 @@ namespace LGProgramaDeEstagio2021
         {
             if (ValidaCNH(cnh))
                 throw new ArgumentException();
-            int matricula = repositorioFuncionario.ConsultarTodos().Count() + 1;
+            
             Funcionario funcionario = FabricaFuncionarios.Crie(nome,
                 salarioContratual,
                 dataAdmissao,

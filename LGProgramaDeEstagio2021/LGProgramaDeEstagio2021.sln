@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LGProgramaDeEstagio2021", "LGProgramaDeEstagio2021\LGProgramaDeEstagio2021.csproj", "{75E9F2A1-B09C-48B8-85C2-96DF08453430}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LG.ExemploDLL", "LG.ExemploDLL\LG.ExemploDLL.csproj", "{FD0BE60C-34BD-4350-9CFC-A79E8B49027E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{75E9F2A1-B09C-48B8-85C2-96DF08453430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75E9F2A1-B09C-48B8-85C2-96DF08453430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75E9F2A1-B09C-48B8-85C2-96DF08453430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0BE60C-34BD-4350-9CFC-A79E8B49027E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0BE60C-34BD-4350-9CFC-A79E8B49027E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0BE60C-34BD-4350-9CFC-A79E8B49027E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0BE60C-34BD-4350-9CFC-A79E8B49027E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
