@@ -37,12 +37,20 @@ namespace LGProgramaDeEstagio2021
             var repositorioAfastamentoFuncionario = new RepositorioAfastamentoFuncionario();
             var repositorioDiasTrabalhados = new RepositorioDiasTrabalhados();
             var registroDiasTrabalhados = new RegistroDiasTrabalhados(repositorioDiasTrabalhados);
+            
 
             GeradorFuncionario.GerarFuncionario(repositorioFuncionario, 40);
             //var relatorioFuncionarioAsc = new RelatorioCrescenteNome(repositorioFuncionario);
             //relatorioFuncionarioAsc.GerarRelatorio();
-            var relatorioFuncionarioDesc = new RelatorioDecrescenteNome(repositorioFuncionario);
-            relatorioFuncionarioDesc.GerarRelatorio();
+
+            //var relatorioFuncionarioDesc = new RelatorioDecrescenteNome(repositorioFuncionario);
+
+            //GeradorRelatorio.GerarRelatorio(new RelatorioDecrescenteNome(repositorioFuncionario));
+            GeradorRelatorio.GerarRelatorio(new RelatorioAdmissaoDataNome(repositorioFuncionario,true));
+
+
+            // relatorioFuncionarioDesc.GerarRelatorio();
+
             /*
             registroDiasTrabalhados.AdicionarRegistro(31, new DateTime(2021, 2, 5), new DateTime(2021, 2, 10));
             registroDiasTrabalhados.AdicionarRegistro(32, new DateTime(2021, 2, 5), new DateTime(2021, 2, 10));
@@ -58,6 +66,16 @@ namespace LGProgramaDeEstagio2021
 
             repositorioValoresCalculados.ConsultarTodos().ForEach(valorCalculado =>
             Console.WriteLine(valorCalculado.Matricula + " : " + valorCalculado.Salario));
+            */
+
+
+
+            /*
+                Criar um relatorio com as seguites informaçoes
+            1- Matricula do funcionario / Nome do funcionario / Mes e Ano calculo / Valor calculado / 
+               -> Ordenado por matricula ou nome
+               *lambda inner join
+            
             */
 
             Console.Read();

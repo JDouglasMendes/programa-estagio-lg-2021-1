@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelos\Relatorio\RelatorioAdmissaoDataNome.cs" />
     <Compile Include="Modelos\Calculo\CalculaSalarioIntermitente.cs" />
     <Compile Include="Modelos\Calculo\RegistroDiasTrabalhados.cs" />
     <Compile Include="Modelos\DiasTrabalhadosIntermitente.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Modelos\FuncionarioCLT.cs" />
     <Compile Include="Modelos\FuncionarioProlabore.cs" />
     <Compile Include="Modelos\Calculo\ICalcularSalario.cs" />
+    <Compile Include="Modelos\Relatorio\GeradorRelatorio.cs" />
     <Compile Include="Modelos\Relatorio\IRelatorio.cs" />
     <Compile Include="Modelos\Relatorio\RelatorioDecrescenteNome.cs" />
     <Compile Include="Repositorios\IRepositorio.cs" />

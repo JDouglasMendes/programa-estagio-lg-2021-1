@@ -88,3 +88,6 @@ D:\Trabalho\LG Lugar De Gente\Treinamentos\3 - Linguagem de programação básic
 D:\Trabalho\LG Lugar De Gente\Treinamentos\3 - Linguagem de programação básico\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CopyComplete
 D:\Trabalho\LG Lugar De Gente\Treinamentos\3 - Linguagem de programação básico\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.exe
 D:\Trabalho\LG Lugar De Gente\Treinamentos\3 - Linguagem de programação básico\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.pdb
+C:\Users\10gut\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LG.ExemploDLL.dll
+C:\Users\10gut\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\bin\Debug\LG.ExemploDLL.pdb
+C:\Users\10gut\Documents\GitHub\programa-estagio-lg-2021-1\LGProgramaDeEstagio2021\LGProgramaDeEstagio2021\obj\Debug\LGProgramaDeEstagio2021.csproj.CopyComplete
