@@ -37,7 +37,7 @@ namespace LGProgramaDeEstagio2021
             var repositorioAfastamentoFuncionario = new RepositorioAfastamentoFuncionario();
             var repositorioDiasTrabalhados = new RepositorioDiasTrabalhados();
             var registroDiasTrabalhados = new RegistroDiasTrabalhados(repositorioDiasTrabalhados);
-            
+
 
             GeradorFuncionario.GerarFuncionario(repositorioFuncionario, 40);
             //var relatorioFuncionarioAsc = new RelatorioCrescenteNome(repositorioFuncionario);
@@ -72,12 +72,26 @@ namespace LGProgramaDeEstagio2021
 
             /*
                 Criar um relatorio com as seguites informaçoes
-            1- Matricula do funcionario / Nome do funcionario / Mes e Ano calculo / Valor calculado / 
+            1- Matricula do funcionario / Nome do funcionario / Mes e Ano calculo / Valor calculado /
                -> Ordenado por matricula ou nome
                *lambda inner join
-            
-            */
 
+            */
+            /*
+             O Desafio FINAL!
+            - Criar um novo tipo de funcionário (Menor Aprendiz)
+            - Esse tipo de funcionário não poderá ter mais de 21 Anos de Idade
+            - Para o Cálculo, terá a mesma regra do CLT, porém sem considerar Afastamentos.
+            - Por fim apresentar o seguinte Relatório:
+            - Categoria: CLT, Autonomo, Prolabora, Intermitente, Menor Aprendiz.
+                - Nome:
+                - Data Admissão:
+                - Valor Salario Contratual
+                - Valor Calculado
+                - Idade do funcionário
+
+               Para Cada funcionário saltar uma linha
+             */
             Console.Read();
         }
     }
