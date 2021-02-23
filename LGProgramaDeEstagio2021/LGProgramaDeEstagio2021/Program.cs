@@ -83,7 +83,7 @@ namespace LGProgramaDeEstagio2021
             - Esse tipo de funcionário não poderá ter mais de 21 Anos de Idade
             - Para o Cálculo, terá a mesma regra do CLT, porém sem considerar Afastamentos.
             - Por fim apresentar o seguinte Relatório:
-            - Categoria: CLT, Autonomo, Prolabora, Intermitente, Menor Aprendiz.
+            - Categoria: CLT, Autonomo, Prolabore, Intermitente, Menor Aprendiz.
                 - Nome:
                 - Data Admissão:
                 - Valor Salario Contratual
